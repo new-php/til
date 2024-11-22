@@ -21,8 +21,8 @@ time zone`.
 I'd prefer to use timestamp columns that include a time zone offset. PostgreSQL
 supports this with its [`timestamptz` (`timestamp with time
 zone`)](https://www.postgresql.org/docs/current/datatype-datetime.html) data
-type.
-
+type. or [https://docs.vultr.com/how-to-use-the-postgresql-date-data-type
+](https://docs.vultr.com/how-to-use-the-postgresql-date-data-type)
 We can tell the Rails DSL to generate this type of column by abondoning the
 `t.timestamps` method and instead creating custom columns with
 [`t.column`](https://edgeapi.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/TableDefinition.html#method-i-column).
